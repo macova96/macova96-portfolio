@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Macova96 Portfolio
 
-## Getting Started
+Welcome to my portfolio! This project showcases my work, skills, and experiences as a developer. It is built using Next.js 14, Tailwind CSS, and other modern web technologies.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Macova96 Portfolio](#macova96-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Setup and Installation](#setup-and-installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This portfolio is designed to present my professional work, including projects I've completed, my resume, and contact information. It is crafted with a modern design and responsive layout to ensure a seamless experience across all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Home Page**: Introduction, overview of skills, and featured projects.
+- **About Page**: Detailed information about my background and experience.
+- **Projects Page**: A showcase of my work with project details and technologies used.
+- **Contact Page**: Form to get in touch with me or view my contact details.
+- **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 14**: A React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: A utility-first CSS framework for custom styling.
+- **JavaScript**: For interactive elements and functionality.
+- **Font**: [Fira Code](https://github.com/tonsky/FiraCode) for coding font style.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup and Installation
 
-## Deploy on Vercel
+To get a local copy of the project up and running, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/yourusername/macova96-portfolio.git
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd macova96-portfolio
+    ```
+
+3. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+4. **Run the Development Server**:
+    ```bash
+    npm run dev
+    ```
+
+    Open `http://localhost:3000` in your browser to view the project.
+
+## Usage
+
+- **Home Page**: View the main introduction and featured work.
+- **About Page**: Learn more about my background and experience.
+- **Projects Page**: Explore details of my projects and the technologies used.
+- **Contact Page**: Reach out via the contact form or view my contact details.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please follow these steps:
+
+1. **Fork the Repository**.
+2. **Create a Feature Branch**:
+    ```bash
+    git checkout -b feature/new-feature
+    ```
+3. **Commit Your Changes**:
+    ```bash
+    git commit -am 'Add new feature'
+    ```
+4. **Push to the Branch**:
+    ```bash
+    git push origin feature/new-feature
+    ```
+5. **Create a Pull Request**.
+
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+---
+
+Asegúrate de personalizar el archivo con tu información específica, como tu nombre de usuario en GitHub, cualquier otra tecnología que hayas utilizado, y cualquier otro detalle relevante para tu proyecto. 
+
+Si necesitas agregar algo más o hacer ajustes, házmelo saber.

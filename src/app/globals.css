@@ -12,7 +12,7 @@
 body {
   color: var(--secondary);
   background: var(--primary);
-  font-family: var(--font-fira-code), sans-serif;
+  font-family: var(--font-fira-code);
 }
 
 @layer utilities {
@@ -20,4 +20,3 @@ body {
     text-wrap: balance;
   }
 }
- 

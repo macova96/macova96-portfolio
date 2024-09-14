@@ -1,18 +1,21 @@
+import Header from '../components/Header'
 import { firaCode } from '../ui/fonts';
-import './globals.css';  // Tus estilos globales
+import './globals.css';  // Estos son los estilos globales
 
 export const metadata = {
   title: "Macova96 - Portfolio",
   description: "A simple Portfolio made with love",
 };
 
-// RootLayout con solo Fira Code
-export default function RootLayout({ children }) {
+const Layout = ({ children }) => {
   return (
     <html lang="en">
-      <body className={`${firaCode.className} antialiased`}>
-        {children}
+      <body className="min-h-screen flex flex-col overflow-hidden">
+        <Header />
+          {children}
       </body>
     </html>
   );
-}
+};
+
+export default Layout;
