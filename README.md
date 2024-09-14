@@ -88,9 +88,3 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 ## License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
-
----
-
-Asegúrate de personalizar el archivo con tu información específica, como tu nombre de usuario en GitHub, cualquier otra tecnología que hayas utilizado, y cualquier otro detalle relevante para tu proyecto. 
-
-Si necesitas agregar algo más o hacer ajustes, házmelo saber.
