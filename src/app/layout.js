@@ -10,9 +10,11 @@ export const metadata = {
 const Layout = ({ children }) => {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col overflow-hidden">
-        <Header />
+      <body className="">
+        <div className="">
+          <Header />
           {children}
+        </div>
       </body>
     </html>
   );

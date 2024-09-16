@@ -2,20 +2,24 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-  <header className='bg-primary p-4 text-accent'>
-    <div className='container mx-auto flex justify-between items-center'>
-      <h1 className='text-2xl text-secondary font-bold'>
-        <Link href="/" > Macova96 </Link>
-      </h1>
-      <nav>
-        <ul className='flex space-x-4'>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/projects">Project</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
-        </ul>
+    <header className="mb-auto flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4">
+      {/* Cambié "classname" a "className", ya que React utiliza "className" en lugar de "class" */}
+      <nav className="w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between">
+          {/* Cambié "classname" a "className" para React */}
+          <h1 className="text-2xl">Macova96</h1>
+        </div>
+        <div id="hs-navbar-cover-page" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block" aria-labelledby="hs-navbar-cover-page-collapse">
+          {/* Aquí también cambié "classname" a "className" */}
+          <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+            {/* Para los enlaces, cambié "classname" a "className" */}
+            <a className="font-medium text-white/70 hover:text-accent focus:outline-none focus:text-secondary" href="/about">About</a>
+            <a className="font-medium text-white/70 hover:text-accent focus:outline-none focus:text-secondary" href="/projects">Projects</a>
+            <a className="font-medium text-white/70 hover:text-accent focus:outline-none focus:text-secondary" href="/contact">Contact</a>
+          </div>
+        </div>
       </nav>
-    </div>
-  </header>
+    </header>
   );
 };
 

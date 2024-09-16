@@ -6,7 +6,7 @@ export default function Home() {
           Macova96
         </h1>
         <p className="text-2xl">
-          texto de introduccion
+          Turning ideas into reality with clean code and modern technologies.
         </p>
       </main>
     </div>
