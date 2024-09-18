@@ -1,4 +1,6 @@
 //Navbar.js
+'use client';
+
 import Link from "next/link";
 
 const Navbar = () => {
@@ -14,3 +16,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;

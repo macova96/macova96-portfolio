@@ -1,5 +1,8 @@
 // Header.js
 // Este componente maneja la barra de navegación del portafolio, utilizando enlaces para navegar entre páginas.
+
+'use client';
+
 import Link from 'next/link';
 
 import { FaGithub } from "react-icons/fa";
@@ -19,14 +22,10 @@ export default function Header() {
         </Link>
         <div className="flex items-center justify-center gap-7">
           <Link href="https://github.com/Macova96">
-            <a>
-              <FaGithub />
-            </a>
+            <FaGithub />
           </Link>
           <Link href="https://www.linkedin.com/">
-            <a>
-              <FaLinkedin />
-            </a>
+            <FaLinkedin />
           </Link>
         </div>
       </div>

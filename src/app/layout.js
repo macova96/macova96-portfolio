@@ -12,7 +12,7 @@ export const metadata = {
 const Layout = ({ children }) => {
   return (
     <html lang="en">
-      <body className="{firaCode.className}">
+      <body className={firaCode.className}>
         <Header />
         <Navbar />
         {children}
