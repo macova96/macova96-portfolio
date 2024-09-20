@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#141414', //negro
-        secondary: '#f5f3f5', //blanco
-        accent: '#d7263d', //rojo
-        neutral: '#abacad', //gris
+        slate: '#4d5c60',
+        charcoal: '#383838',
+        amythest: '#525266',
+        mist: '#d1e0de',
+        keylime: '#eef4c',
       },
       fontFamily: {
         mono: ['var(--font-fira-code)', 'monospace'],

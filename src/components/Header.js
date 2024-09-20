@@ -13,14 +13,14 @@ export default function Header() {
     <header>
       <div className='container justify-between max-w-6xl mx-auto md:flex'>
         <Link href="/">
-          <h1 className="my-3 mx-5 text-6xl text-secondary font-bold text-center md:text-left">
+          <h1 className="my-3 mx-5 text-6xl text-white font-bold text-center md:text-left">
             Macova
-            <span className="text-accent">
+            <span className="text-amythest">
               96
             </span>
           </h1>
         </Link>
-        <div className="flex items-center justify-center gap-7">
+        <div className="flex items-center text-white text-3xl justify-center gap-7">
           <Link href="https://github.com/Macova96">
             <FaGithub />
           </Link>

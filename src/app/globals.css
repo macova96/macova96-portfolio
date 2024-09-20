@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --primary: #141414; /*negro*/
-  --secondary: #f5f3f5; /*blanco*/
-  --accent: #d7263d; /*rojo*/
-  --neutral: #abacad; /*gris*/
+  --slate: #4d5c60;
+  --charcoal: #383838;
+  --amythest: #525266;
+  --mist: #d1e0de;
+  --keylime: #eef4ce;
 }
 
 body {
-  color: ;
-  background:var(--primary) ;
+  background:var(--charcoal);
   font-family: var(--font-fira-code);
 }
 

@@ -13,9 +13,11 @@ const Layout = ({ children }) => {
   return (
     <html lang="en">
       <body className={firaCode.className}>
-        <Header />
-        <Navbar />
-        {children}
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          {children}
+          <Navbar />
+        </div>
       </body>
     </html>
   );
